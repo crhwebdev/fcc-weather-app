@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: Weather App</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+</head>
+
+<body translate="no" >
+
+    <!--
+Requriements:
+  1. Show weather in users current location: temperature and cloud cover; possibly other such as windspeed and barometric preasure
+  2. show different background image or icon based on current conditions.
+  3. Bonus: add button to switch between farenheig and celsius
+-->
+  <div id="container" class="day clear">
+    <header>
+      <h1>Weather App <a href="#" target="_blank"><img src="" id="wu-logo" alt="WeatherUnderground Logo"></a></h1>
+    </header>
+    <div id="display">
+      <p>Conditions for <span id="city">Loading...</span> On <span id = "date"></span></p>
+      <p>Temperature is <span id="temp">Loading...</span><span id="measure"> F</span></p>
+      <button id="weather"><img src = "" id="condition-icon" alt="conditions"></button>
+      <p id="conditions"></p>
+    </div>
+  </div>
+  <div class="hr"></div>
+  <footer>
+    <p>Power by <a href="https://www.wunderground.com/" target="_blank">Weather Underground</a></p>
+  </footer>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

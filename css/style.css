@@ -1,0 +1,114 @@
+/* remove annoying outline on buttons and inputs*/
+button, input:focus{
+outline:0;
+}
+
+body{
+text-align: center;
+}
+
+header {
+font-family: sans-serif;
+background-color: black;
+border-bottom: 2px solid white;
+}
+
+h1 {
+font-size: 2em;
+}
+
+#container {
+width: 100%;
+padding-bottom: 1%;
+box-shadow: 5px 5px 5px black;
+
+}
+
+#measure:hover{
+color: red;
+cursor: pointer;
+}
+
+#weather {
+background-color: #6B788E;
+color: #FCFAB5;
+height: 50px;
+}
+
+button:hover{
+opacity: 0.6;
+}
+
+.hr {
+background-color: gray;
+width: 40%;
+height: 2px;
+margin-top: 1%;
+margin-left: 30%;
+margin-right: 30%;
+}
+
+footer{
+font-size: 0.8em;
+}
+
+.night{
+background-color: #010D19;
+}
+
+.day-overcast{
+background-color: #6B788E;
+}
+
+.day-stormy{
+background-color: #2B333F;
+}
+
+.day{
+background-color: #5784B1;
+
+}
+
+.clear{
+color: #FCFAB5;
+}
+
+.rain{
+color: #97ECF6;
+
+}
+
+.snow{
+color: #E3E5E8;
+}
+
+.lightning{
+color: yellow;
+}
+
+
+@media screen and (min-width: 800px){
+h1{
+font-size: 3em;
+}
+
+#container{
+font-size: 1.5em;
+width: 80%;
+margin-right: 10%;
+margin-left: 10%;
+}
+}
+
+@media screen and (min-width: 1050px){
+h1{
+font-size: 3em;
+}
+
+#container{
+font-size: 1.5em;
+width: 60%;
+margin-right: 20%;
+margin-left: 20%;
+}
+}

@@ -1,11 +1,3 @@
-/*
-Requriements:
-  1. Show weather in users current location: temperature and cloud cover; possibly other such as windspeed and barometric preasure
-  2. show different background image or icon based on current conditions.
-  3. Bonus: add button to switch between farenheig and celsius
-to do:
-add cacheing function with time stamp and only get new weather data every 10 minutes
-*/
 
 //Main function starts here
 $("document").ready(function(){
